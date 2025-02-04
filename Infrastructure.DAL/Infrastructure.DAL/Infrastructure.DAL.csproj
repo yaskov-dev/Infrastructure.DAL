@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>Yaskov.Infrastructure.DAL</PackageId>
+        <Version>1.0.0</Version>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Authors>Antonyi Yaskov</Authors>
+        <PackageTags>Infrastructure</PackageTags>
+        <Description>This package have base to simplify building of DAL layer of standartized .Net application</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/yaskov-dev/Infrastructure.DAL</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+    </ItemGroup>
+
+</Project>
